@@ -1,1 +1,0 @@
-!function(){"use strict";function t(n,e){n.LunchItemsCount=function(o){var c=o?o.split(","):0;void 0===n.items||""===n.items?n.LunchItems="Please enter data first":c.length<=3?n.LunchItems="Enjoy!":c.length>3&&(n.LunchItems="Too much!"),console.log(e.annotate(t))}}angular.module("myApp",[]).controller("myCtrl",t),t.$inject=["$scope"]}();
